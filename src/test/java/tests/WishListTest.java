@@ -11,6 +11,9 @@ public class WishListTest {
 	
 	@Test
 	public void wishList() {
+		
+		System.out.println("Modification done by Merline");
+		
 		logger.debug("Invoking WishList Test");
 		Assert.assertEquals(false, false);
 	}
