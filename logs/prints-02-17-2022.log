@@ -1,0 +1,8 @@
+22:51:18.415 [main] DEBUG tests.DownloadTest - Invoking WishList Test
+22:51:22.800 [main] DEBUG tests.DownloadTest - Invoking Download Test
+22:51:23.480 [main] DEBUG tests.DownloadTest - Invoking Register Test
+22:51:23.495 [main] DEBUG tests.LoginTest - Initializing the browser.........
+22:51:24.696 [main] DEBUG tests.LoginTest - Navigating the Application url
+22:51:27.463 [main] DEBUG tests.LoginTest - Landing page invoked
+22:51:28.854 [main] DEBUG tests.LoginTest - Login page invoked
+22:51:29.859 [main] DEBUG tests.LoginTest - Account page invoked

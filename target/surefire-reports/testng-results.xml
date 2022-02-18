@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T16:54:29 GMT" name="Suite" finished-at="2022-02-17T16:54:54 GMT" duration-ms="24844">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T16:54:29 GMT" name="Test" finished-at="2022-02-17T16:54:54 GMT" duration-ms="24844">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:29 GMT" name="openApplication" finished-at="2022-02-17T16:54:35 GMT" duration-ms="6118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:35 GMT" name="login" data-provider="getLoginData" finished-at="2022-02-17T16:54:38 GMT" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello100@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:38 GMT" name="closure" finished-at="2022-02-17T16:54:38 GMT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:38 GMT" name="openApplication" finished-at="2022-02-17T16:54:42 GMT" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:42 GMT" name="login" data-provider="getLoginData" finished-at="2022-02-17T16:54:54 GMT" duration-ms="11901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@ec756bd]" started-at="2022-02-17T16:54:54 GMT" name="closure" finished-at="2022-02-17T16:54:54 GMT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.WishListTest">
+        <test-method signature="wishList()[pri:0, instance:tests.WishListTest@2133814f]" started-at="2022-02-17T16:54:29 GMT" name="wishList" finished-at="2022-02-17T16:54:29 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishList -->
+      </class> <!-- tests.WishListTest -->
+      <class name="tests.DownloadTest">
+        <test-method signature="download()[pri:0, instance:tests.DownloadTest@38c5cc4c]" started-at="2022-02-17T16:54:29 GMT" name="download" finished-at="2022-02-17T16:54:29 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download -->
+      </class> <!-- tests.DownloadTest -->
+      <class name="tests.RegistrationTest">
+        <test-method signature="register()[pri:0, instance:tests.RegistrationTest@37918c79]" started-at="2022-02-17T16:54:29 GMT" name="register" finished-at="2022-02-17T16:54:29 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

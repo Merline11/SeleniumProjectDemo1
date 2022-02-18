@@ -1,0 +1,7 @@
+22:51:29.998 [main] INFO  tests.LoginTest - Successfully Logged in
+22:51:30.123 [main] DEBUG tests.LoginTest - Initializing the browser.........
+22:51:31.369 [main] DEBUG tests.LoginTest - Navigating the Application url
+22:51:34.046 [main] DEBUG tests.LoginTest - Landing page invoked
+22:51:34.993 [main] DEBUG tests.LoginTest - Login page invoked
+22:51:35.647 [main] DEBUG tests.LoginTest - Account page invoked
+22:51:45.726 [main] ERROR tests.LoginTest - Failed to loggin
