@@ -12,6 +12,9 @@ public class RegistrationTest {
 	
 	@Test
 	public void register() {
+		
+		System.out.println("Modification done in Registration in dev ");
+		
 		logger.debug("Invoking Register Test");
 		Assert.assertEquals(false, false);
 	}
