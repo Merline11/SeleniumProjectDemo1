@@ -27,6 +27,8 @@ public class DownloadTest extends BaseAutomationCode{
 	
 	@AfterMethod
 	public void closure() {
+		
+		logger.debug("Driver is closing");		
 		driver.close();
 	}
 
